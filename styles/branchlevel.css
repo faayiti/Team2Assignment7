@@ -1,16 +1,26 @@
 
 body {
-  background-color: lightcyan;
+  background: linear-gradient(to bottom right, lightcyan, lightgray);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  fles-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 h1 {
   color: darkblue;
+  text-align: center;
+  margin-bottom:
 }
 
 img{
   width:300px;
   height:200px;
-  border:10px solid green;
+  border:10px solid forestgreen;
   color:white;
   border-radius:20px;
   vertical-align: top;
@@ -20,7 +30,8 @@ figcaption{
   width: 315px;
   text-align: left;
   margin-left: 25px;
-  color:black;
+  color:lightgray;
   font-style: italic;
   font-size: 30px;
+  margin-top: 10px;
 }
